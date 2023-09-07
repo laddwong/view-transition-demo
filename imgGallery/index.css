@@ -1,0 +1,28 @@
+.gallery {
+  display: flex;
+  margin: auto;
+}
+.gallery .list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+.gallery .list img {
+  width: 200px;
+  margin-bottom: 8px;
+}
+.gallery .preview {
+  height: 800px;
+  width: 800px;
+  position: relative;
+}
+.gallery .preview img {
+  height: 100;
+}
+.gallery .preview .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  padding: 8px;
+}

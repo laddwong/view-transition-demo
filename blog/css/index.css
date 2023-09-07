@@ -1,0 +1,9 @@
+.title {
+  view-transition-name: var(--name);
+}
+ul li.title {
+  border: 1px solid;
+  margin: 16px 0;
+  padding: 8px;
+  list-style-type: none;
+}
